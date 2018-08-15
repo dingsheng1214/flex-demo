@@ -1,0 +1,77 @@
+*{margin: 0;padding: 0;color: white;box-sizing: border-box;}
+a{text-decoration: none;}
+body{background: #333333;}
+
+.wrapper{display: flex;height: 100vh;}
+.principal{/*border: 1px solid red;*/flex: 1;padding: 20px}
+.principal>div{margin: 20px 0}
+.flex-container{display: flex;padding: 10px;border: 1px solid gray}
+.flex-container#align-items{height: 200px}
+.flex-container#align-content{height: 600px}
+.flex-container#wrap{width: 50%}
+.flex-container#align-content{flex-wrap: wrap;}
+.item{width: 100px;height: 100px;display: flex;justify-content: center;align-items: center;}
+#align-items .item,#align-content .item{width: 100px;height: auto;padding: 25px}
+.radio,.number{font-size: 16px;font-weight: 100}
+.radio>label,.number>label{margin: 0 10px}
+
+.flex-container#align-self{height: 300px;justify-content: center;align-items: center;}
+#align-self .item{width: 100px;height: auto;padding: 15px}
+.control input[type='number']{width: 50px;color: black}
+.flex-container#flex-shrink{width: 400px}
+.flex_all{display: flex;}
+.flex_all>.flex_number{display: flex;flex-direction: column;flex: 1;font-size: 16px;font-weight: 100}
+.flex_number input[type='number']{margin: 10px 20px 10px 0}
+#order>.item{flex: 1}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[data-color='2a80b9']{
+    background: #2a80b9;
+}
+[data-color='8f44ad']{
+    background: #8f44ad;
+}
+[data-color='16a086']{
+    background: #16a086;
+}
+[data-color='f1c40f']{
+    background: #f1c40f;
+}
+[data-color='e77e23']{
+    background: #e77e23;
+}
+
+
